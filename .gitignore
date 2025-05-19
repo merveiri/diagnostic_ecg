@@ -1,0 +1,35 @@
+# 1) Sanal ortam (venv)
+venv/
+# Python egg-info, cache vb.
+__pycache__/
+*.py[cod]
+*.egg-info/
+# Log dosyaları
+*.log
+
+# 2) Jupyter notebook checkpoint’leri
+.ipynb_checkpoints/
+
+# 3) Ham veri & büyük ikili dosyalar
+#    -> my_ecg_data.zip ya da açılmış “data/” klasörü
+data/
+my_ecg_data.zip
+# Eğer verinin bir kısmını version control’e almak istersen,
+# örneğin yalnızca küçük örnek dosyalar, o klasörü ayrı tut ve
+# data/ yerine data/raw/ vs. olarak organize et.
+
+# 4) Ortam değişkenleri, gizli dosyalar
+.env
+*.env
+
+# 5) IDE / OS dosyaları
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# 6) Çıktı / derivasyon klasörleri
+output/
+reports/

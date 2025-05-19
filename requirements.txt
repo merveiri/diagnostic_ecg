@@ -1,0 +1,10 @@
+# requirements.txt
+
+jupyterlab
+wfdb
+numpy
+pandas
+scipy
+scikit-learn
+neurokit2
+matplotlib
