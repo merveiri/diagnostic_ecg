@@ -8,3 +8,9 @@ scipy
 scikit-learn
 neurokit2
 matplotlib
+tqdm
+seaborn
+PyWavelets
+ace_tools
+SMOTE
+imblearn
